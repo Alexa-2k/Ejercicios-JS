@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    border: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+  
+#logo { 
+    width: 10%;
+    margin-left: 6%;
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#TP_JS {
+    display: inline-block;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    margin-right: 18%;
+}
+
+.caja {
+    width: 20%;
+    display: inline-block;
+    position: absolute; 
+    margin-left: 28%;
+    padding-top: 2%;
+} 
+
+.caja a {
+    font-family: 'Lato', sans-serif;
+}
+
+nav { 
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: #37303f;
+    position: relative;
+    height: 80px;
+}
+
+nav a {
+    vertical-align: middle;
+    margin-left: 3%;
+    color: #30E3CB; 
+    text-decoration: none;  
+}
+nav a:hover{
+    color:#FFA1A1  ;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #90c09a;
+    /* background-color: #E4F9F5; */
+    }
+
+.titulo {
+    display: block;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.titulo a {
+    text-decoration: none;
+    color:  #48604d;
+}    
+
+.titulo a:hover {
+    text-decoration: none;
+    color:  #263329;
+}  
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:#48604d
+}
+.logo {
+    display: inline-block;
+    margin: 2% 10% 2% 35%;
+}
+.portada {
+    display: inline-block;
+    margin: 0 38% 1% 38%;
+}
+  h1{
+    font-family: 'Lato', sans-serif;
+    border-right: 2.8px solid green;
+    animation: cursor .7s infinite,
+    escribiendo 3s steps(18, end);
+    white-space: nowrap;
+    overflow: hidden; 
+    
+  }
+  @keyframes cursor {
+    0% { border-color: transparent};
+    50% {border-color: green}
+  }
+  @keyframes escribiendo {
+    from {width: 0}
+    to {width: 100%}
+  }
+
+.container { 
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    margin-left: 7%;
+    justify-content: space-around;
+}
+
+.flexItem {
+    width: 20%;
+    font-family: 'Lato', sans-serif;
+    color: #48604d;
+    font-weight: 500;
+} 
+.btn {
+    position: relative;
+    display: inline-block;
+    /* background-color: #30E3CB; */
+    background-color: #f0db4f;
+    height: 2em;
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 2%;
+    color: #48604d ;
+    border-radius: 10px;
+    border-color: yellow;
+    margin: 5%;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    font-weight: 400;
+    
+}
+
+.transp {
+    background-color: transparent; 
+    width: 30%;
+    border-style: solid;
+    border-color:  white;
+    color: white ;
+    border-width: 2px;
+    margin: 1.5% 20% 1% 32%;
+    padding: auto;
+    font-weight: 400;
+    font-size: larger;
+}
+
+

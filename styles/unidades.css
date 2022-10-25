@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    border: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#logo { 
+    width: 10%;
+    margin-left: 0;
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+
+.TP_JS {
+    display: inline-block;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    margin-right: 8%;
+}
+
+.TP_JS p {
+    color: white;
+    width: 150px;
+    }
+   
+.unidad {
+    margin-left: 1%;
+}    
+.p-unidad{
+    margin-left: 130%;
+}    
+
+.unidad a:hover {
+    color: white;
+} 
+
+.caja {
+    width: 20%;
+    display: inline-block;
+    position: absolute; 
+    margin-left: 27%;
+    padding-top: 2%;
+} 
+
+.caja a {
+    font-family: 'Lato', sans-serif;
+}
+
+nav { 
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: #37303f;
+    position: relative;
+    height: 80px;
+}
+
+nav a {
+    vertical-align: middle;
+    margin-left: 3%;
+    color:#ffc900; 
+    text-decoration: none;  
+}
+nav a:hover{
+    color:white  ;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: white;
+    }
+
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:#48604d
+}
+
+.titulo {
+    background-color: #ffc900;
+    text-align: center;
+    padding-top: 0.5%;
+    margin-bottom: 0;
+
+}
+.flexItem h3 {
+    align-self: center;
+    display: inline-flex;
+    font-family: 'Lato', sans-serif;
+    color: #48604d;
+    font-weight: 500;
+}
+h4 {
+    display: inline-flex;
+    font-family: 'Lato', sans-serif;
+    color: #48604d;
+    font-weight: 500;
+}
+
+.container {
+	width: 98%;
+	margin: 0 2%;
+    height: 95vh; 
+}
+
+.Unidad-ejercicios {
+	display: flex;
+	flex-wrap: wrap;
+    margin: 0.5% 0 0 1%; 
+    height: 100%;
+}
+
+.Unidad-ejercicios-link {  
+    display: inline-flex;
+	width: 47%;
+    padding: 1%;
+	height: 33%;
+	background-color:  #FFF9CA;;
+	text-align: justify;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+    
+    }
+
+.Unidad-ejercicios-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	top: 0;
+	left: 0; 
+}
+
+.Unidad-ejercicios-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+    background-color: #FFF;
+}
+
+.Unidad-ejercicios-link a:before {
+	content: '';
+	display: block;
+	width: 43%;
+	height: 100%;
+	margin: 5px auto;
+}
+
+.activo {
+    background-color:#ffc900 ;
+
+}
+.activo a:hover {
+    color: #ffc900;
+}
+
